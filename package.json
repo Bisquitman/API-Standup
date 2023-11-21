@@ -1,7 +1,7 @@
 {
   "name": "api-standup",
   "version": "1.0.0",
-  "description": "API backend server для сервиса рагистрации на Standup",
+  "description": "API backend server для сервиса регистрации на Standup",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
