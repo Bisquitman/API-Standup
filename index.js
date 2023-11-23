@@ -2,7 +2,7 @@ import http from 'node:http';
 import fs from 'node:fs/promises';
 import { sendError } from './modules/send.js';
 import { checkFileExist, createFileIfNotExist } from './modules/checkFile.js';
-import { handleComediansRequest } from './modules/handleComediansRequest.js';
+import { handleComediansRequest } from './modules/handleComedians.js';
 import { handleAddClient, handleClientsRequest, handleUpdateClient } from './modules/handleClients.js';
 
 const PORT = 8080;

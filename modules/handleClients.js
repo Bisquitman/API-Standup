@@ -18,7 +18,7 @@ export const handleAddClient = async (request, response) => {
       newClient.booking &&
       (!newClient.booking.length ||
         !Array.isArray(newClient.booking) ||
-        !newClient.booking.every((item) => item.comediant && item.time))
+        !newClient.booking.every((item) => item.comedian && item.time))
     ) {
       sendError(response, 400, "Неверно заполнены поля бронирования");
       return;
@@ -53,7 +53,7 @@ export const handleUpdateClient = async (request, response, ticketNumber) => {
       updateDataClient.booking &&
       (!updateDataClient.booking.length ||
         !Array.isArray(updateDataClient.booking) ||
-        !updateDataClient.booking.every((item) => item.comediant && item.time))
+        !updateDataClient.booking.every((item) => item.comedian && item.time))
     ) {
       sendError(response, 400, "Неверно заполнены поля бронирования");
       return;

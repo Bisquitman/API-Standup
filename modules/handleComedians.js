@@ -2,13 +2,13 @@ import { sendError, sendResponse } from "./send.js";
 
 export const handleComediansRequest = async (request, response, comedians, id) => {
   if (id) {
-    const comediant = comedians.find((c) => c.id === id);
+    const comedian = comedians.find((c) => c.id === id);
 
-    if (!comediant) {
+    if (!comedian) {
       sendError(response, 404, "Стендапер не найден");
       return;
     }
-    sendResponse(response, comediant);
+    sendResponse(response, comedian);
     return;
   }
   sendResponse(response, comedians);
