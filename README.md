@@ -1,7 +1,7 @@
 # API-Standup
 API backend server для сервиса регистрации на Standup (FullStack Интенсив от школы MethED - Сервис записи на StandUp (21.11.2023 — 25.11.2023))
 <!--Блок информации о репозитории в бейджах-->
-![Static Badge](https://img.shields.io/badge/Bisquitman-API-Standup)
+![Static Badge](https://img.shields.io/badge/Standup-API-Standup)
 ![GitHub top language](https://img.shields.io/github/languages/top/Bisquitman/API-Standup)
 ![GitHub](https://img.shields.io/github/license/Bisquitman/API-Standup)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Bisquitman/API-Standup)
