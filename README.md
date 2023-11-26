@@ -35,6 +35,17 @@ API backend server для сервиса регистрации на Standup (Fu
 
 ***
 
+## Полезные ссылки
+### API
+- [Node.js](https://nodejs.org/en)
+- [JSON viewer для chrome](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh)
+- [Talend API Tester](https://chrome.google.com/webstore/detail/talend-api-tester-free-ed/aejoelaoggembcahagimdiliamlcdmfm)
+- [git-scm.com](https://git-scm.com/)
+- [github.com](https://github.com/)
+- [API final edition from Leskin](https://fs10.getcourse.ru/fileservice/file/download/a/251231/sc/126/h/3736f9caf00ebbab668810537041a0c1.zip)
+
+***
+
 <!--зависимости-->
 ## Зависимости
 (версии указаны на момент разработки)
