@@ -33,7 +33,6 @@ const startServer = async (port) => {
 
       if (!segments.length) {
         sendError(response, 404, 'Страница не найдена');
-        return;
       }
 
       // Деструктуризация segments: segments[0] === resource

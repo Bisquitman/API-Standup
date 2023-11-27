@@ -10,6 +10,9 @@
   "type": "module",
   "author": "Bisquitman",
   "license": "ISC",
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "devDependencies": {
     "nodemon": "^3.0.1"
   }
