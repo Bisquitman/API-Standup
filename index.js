@@ -19,12 +19,21 @@ const startServer = async (port) => {
   const server = http.createServer(async (request, response) => {
     try {
       response.setHeader('Access-Control-Allow-Origin', '*');
+      response.setHeader('Access-Control-Allow-Methods', 'GET, POST, PATCH, OPTIONS');
+      response.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+
+      if (request.method === 'OPTIONS') {
+        response.writeHead(204);
+        response.end();
+        return;
+      }
 
       const segments = request.url.split('/').filter(Boolean); // Получить все, кроме первого
       console.log('segments: ', segments);
 
       if (!segments.length) {
         sendError(response, 404, 'Страница не найдена');
+        return;
       }
 
       // Деструктуризация segments: segments[0] === resource
